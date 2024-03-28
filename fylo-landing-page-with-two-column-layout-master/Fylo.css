@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.firstbox , .secondbox ,.thirdbox {
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    padding: 5%;
+}
+.firstright img {
+    width: 100%;
+    height: auto;
+    padding: 1px;
+}
+.secondright img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color:hsl(243, 87%, 12%);
+    color: white;
+    padding: 8%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    display: flex;
+    padding: 25px;
+}
+nav img{
+    width: 7rem;
+}
+nav ul {
+    display: flex;
+    margin-left: auto;
+    gap: 3rem;
+}
+.Email input{
+    font-size: 1rem;
+    margin-right: 15px;
+    padding: 7px;
+}
+button{
+    background-color: rgb(47, 81, 218);
+    padding: 7px;
+    margin-top: 1rem;
+    margin-right: 8.59rem;
+}
+.secondbox {
+    background-color: hsl(240deg 75% 98.43%);
+    margin-top: -15px;
+}
+.greenlink{
+    margin-top: 1rem;
+}
+.greenlink a{
+    text-decoration: none;
+}
+.box{
+    width: 75%;
+    padding: 27px;
+    background-color: white;
+    /* border: 2px solid rgb(77, 73, 73); */
+    box-shadow: 2px 2px 5px rgb(36, 35, 35);
+    margin-top: 1rem;
+}
+.avatar{
+    display: flex;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+.thirdbox{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+.thirdleft, .thirdright{
+    width: 50%;
+}
+.thirdleft{
+    padding: 17px;
+}
+.thirdright{
+    text-align: center;
+}
+.thirdright input{
+    padding: 5px 4rem 5px 5px;
+}
+.greenlink a{
+    text-decoration: underline;
+    color: rgb(63, 154, 124);
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+}
+.Allcontact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* .fourthbox img{ */
+    
+    /* margin-bottom: 10px; */
+    /* width: 100px; */
+/* } */
+#fylofooter{
+    width: 100px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+h3{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.Email button {
+   background-color: rgb(47, 81, 218);
+   color: white;
+}
+#mobilecurve{
+    display: none;
+}
+@media(max-width:576px){
+    .firstbox , .secondbox{
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .firstleft , .secondleft{
+        padding:50px;
+    }
+    h3{
+        font-size: 1.5rem !important;
+    }
+    .Email input , button{
+        width: 100%;
+    }
+    #curve{
+        display: none;
+    }
+    #mobilecurve{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .greenlink{
+        text-align: center;
+    }
+    .box{
+        margin-left: 15%;
+    }
+    .thirdbox{
+        flex-direction: column;
+        padding: 10%;
+    }
+    .thirdleft , .thirdright{
+        width: 100%;
+    }
+    .thirdleft , .thirdright {
+        padding: 30px;
+        text-align: center;
+    }
+    .thirdright input{
+        width: 100%;
+    }
+    .Allcontact{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .Allcontact li{
+    gap: 20px;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+        gap: 10px;
+    }
+}
